@@ -1,0 +1,50 @@
+.review-parent{
+    padding: 1rem 2rem;
+}
+
+.review-parent .review-content{
+    font-family: 'Poppins', sans-serif;
+}
+
+.review-parent .review-content .heading{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.review-parent .review-content .review-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.review-parent .review-content .review-menu .card{
+    background-color: #FFF5E9;
+    width: 25rem;
+    border-radius: 30px;
+    box-shadow: rgb(221, 221, 221) 2px 2px 5px;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.review-parent .review-content .review-menu .card:hover{
+    transform: scale(1.04);
+}
+
+.review-parent .review-content .review-menu .card img{
+    width: 5rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.review-parent .review-content .review-menu .card .description{
+    padding-top: 0.5rem;
+}
+
+.review-parent .review-content .review-menu .card .name{
+    padding-top: 1rem;
+    font-weight: 500;
+}

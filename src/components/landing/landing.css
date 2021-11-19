@@ -1,0 +1,73 @@
+/* landing page styling  */
+.nav-parent{
+    position: sticky;
+    top: 0;
+    background-color: #FFFCF7;
+    z-index: 9999;
+}
+
+.nav-parent .nav-content{
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-parent .nav-content .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-parent .nav-content .header:hover{
+    cursor: pointer;
+}
+
+.nav-parent .nav-content .header .logo .logo-pic{
+    height: 3rem;
+    width: 3rem;
+}
+
+.nav-parent .nav-content .header .logo-name p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-top: 0.75rem;
+    padding-left: 0.5rem;
+    color: #502F20;
+}
+
+.nav-parent .nav-content .links-menu .nav-links li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-parent .nav-content .links-menu .nav-links li:hover{
+    cursor: pointer;    
+    color: #F2BD57;
+}
+
+.nav-parent .nav-content .menu-btn button{
+    border: none;
+    border-radius: 30px;
+    border-color: #ffffff 3px solid;
+    width: 8rem;
+    height: 3rem;
+    background-color: #F2BD57;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #502F20;
+    transition: all 0.3s ease;
+}
+
+.nav-parent .nav-content .menu-btn button:hover{
+    background-color: #ffffff;
+    border: #F2BD57 3px solid;
+    cursor: pointer;
+}

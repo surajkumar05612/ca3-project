@@ -1,0 +1,82 @@
+.popular-parent .popular-content{
+    margin: 0 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.popular-parent .popular-content .heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.popular-parent .popular-content .dish-menu .dish-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.popular-parent .popular-content .dish-menu .dish-item .item-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    width: 17rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: rgb(221, 221, 221) 2px 2px 5px;
+    transition: all 0.3s ease;
+}
+.popular-parent .popular-content .dish-menu .dish-item .item-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-img img{
+    width: 9rem;
+    height: 7rem;
+}
+
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-name{
+    font-weight: 500;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-rating{
+    padding-top: 0.5rem;
+}
+
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-description{
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: 400;
+}
+
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-price{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-price .price{
+    font-weight: 600;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-price .btn{
+    padding-left: 1rem;
+}
+.popular-parent .popular-content .dish-menu .dish-item .item-card .dish-price .btn button{
+    width: 6rem;
+    height: 2.5rem;
+    color: #502F20;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: #F2BD57 3px solid;
+}

@@ -1,0 +1,52 @@
+.banner_2-parent{
+    padding: 1rem 3rem;
+}
+
+.banner_2-parent .banner_2-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.banner_2-parent .banner_2-content .left-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_2-parent .banner_2-content .left-content .heading{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.banner_2-parent .banner_2-content .left-content .description{
+    padding-top: 2rem;
+}
+
+.banner_2-parent .banner_2-content .left-content .btn{
+    padding-top: 2rem;
+}
+
+.banner_2-parent .banner_2-content .left-content .btn .primary-btn{
+    width: 10rem;
+    height: 2.8rem;
+    background-color: #F2BD57;
+    color: #502F20;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: #ffffff 3px solid;
+    box-shadow: rgb(221, 221, 221) 2px 2px 5px;
+}
+
+.banner_2-parent .banner_2-content .left-content .btn .primary-btn:hover{
+    background-color: #ffffff;
+    border: #F2BD57 3px solid;
+    cursor: pointer;
+}
+
+.banner_2-parent .banner_2-content .right-content img{
+    width: 40rem;
+    height: 40rem;
+}

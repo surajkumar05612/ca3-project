@@ -1,0 +1,115 @@
+.regular-parent{
+    padding: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.regular-parent .regular-content .heading{
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.regular-parent .regular-content .btn-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.regular-parent .regular-content .btn-menu .secondary-btn{
+    width: 8rem;
+    height: 2.8rem;
+    color: #502F20;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: #F2BD57 3px solid;
+    box-shadow: rgb(221, 221, 221) 2px 2px 5px;
+}
+
+.regular-parent .regular-content .btn-menu .secondary-btn:hover{
+    background-color: #F2BD57;
+    border: #ffffff 3px solid;
+    cursor: pointer;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    width: 17rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: rgb(221, 221, 221) 2px 2px 5px;
+    transition: all 0.3s ease;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-img img{
+    width: 9rem;
+    height: 7rem;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-name{
+    font-weight: 500;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-rating{
+    padding-top: 0.5rem;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-description{
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: 400;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-price{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-price .price{
+    font-weight: 600;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-price .btn{
+    padding-left: 1rem;
+}
+
+.regular-parent .regular-content .dish-menu .dish-item .item-card .dish-price .btn .secondary-btn{
+    width: 6rem;
+    height: 2.5rem;
+    color: #502F20;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: #F2BD57 3px solid;
+}

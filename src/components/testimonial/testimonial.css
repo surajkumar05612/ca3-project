@@ -1,0 +1,71 @@
+.test-parent{
+    padding: 2rem 4rem;
+}
+
+.test-parent .test-content{
+    background-color: #FFF5E9;
+    border-radius: 30px;
+    padding: 2rem 2rem;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    height: 30rem;
+}
+
+.test-parent .test-content img{
+    height: 40rem;
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+}
+
+.test-parent .test-content .heading{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.test-parent .test-content .description{
+    padding-top: 1rem;
+}
+
+.test-parent .test-content .btn-menu{
+    padding-top: 1rem;
+}
+
+.test-parent .test-content .btn-menu .primary-btn{
+    width: 8rem;
+    height: 2.8rem;
+    background-color: #F2BD57;
+    color: #502F20;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: #ffffff 3px solid;
+    box-shadow: rgb(221, 221, 221) 2px 2px 5px;
+}
+
+.test-parent .test-content .btn-menu .primary-btn:hover{
+    background-color: #ffffff;
+    border: #F2BD57 3px solid;
+    cursor: pointer;
+}
+
+.test-parent .test-content .btn-menu .secondary-btn{
+    width: 8rem;
+    height: 2.8rem;
+    color: #502F20;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: #F2BD57 3px solid;
+    box-shadow: rgb(221, 221, 221) 2px 2px 5px;
+    margin-left: 2rem;
+}
+
+.test-parent .test-content .btn-menu .secondary-btn:hover{
+    background-color: #F2BD57;
+    border: #ffffff 3px solid;
+    cursor: pointer;
+}

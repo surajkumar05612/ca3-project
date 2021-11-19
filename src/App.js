@@ -5,6 +5,8 @@ import Banner from "./components/banner-1/banner";
 import Regular from "./components/regular-menu/regular";
 import Bannernew from "./components/banner-2/banner-2";
 import Review from "./components/review/review";
+import Testimonial from "./components/testimonial/testimonial";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
     <Regular></Regular>
     <Bannernew></Bannernew>
     <Review></Review>
+    <Testimonial></Testimonial>
+    <Footer></Footer>
     </>
   );
 }
